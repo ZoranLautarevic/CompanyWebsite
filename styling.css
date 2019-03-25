@@ -1,0 +1,91 @@
+/*Style body adding background image and set it to cover, add font-family*/
+body {
+    font-family: Bitter, serif;
+    background: url(images/Background.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 660px;
+}
+/*Style brand*/
+.logo {
+    height: 45px;
+}
+/*Style navigation bar*/
+.navbar-inverse {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.nav li {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.nav li:hover {
+    border-bottom: 1px solid #FF9800;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+/*Style jumbotron*/
+.jumbotron {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+    letter-spacing: 2.5px; 
+    /* height: 640px; */
+}
+/*Limit thhe width of the icon section*/
+.container {
+    max-width: 1000px;
+}
+/*Style icons section using bootstrap grid sistem*/
+.bodyImage {
+   height: 100px; 
+}
+
+.col-md-4 {
+    text-align: center;
+    color: #fff;
+}
+
+.icons {
+    font-size: 15px;
+}
+/*Style contact button*/
+.contact {
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 225px;
+    height: auto;
+}
+
+.contact .btn-success {
+   background-color: rgba(256, 152, 0, 0.7);
+   border: none;
+   border-radius: 10px;
+   font-size: 20px;
+   padding: 10px 70px;
+   letter-spacing: 1.3px; 
+}
+
+.contact .btn-success:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FF9800;
+    border: none;
+}
+/*Style footer*/
+.footer {
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 0;
+}
+/*Use media queries to change size in small devices*/
+@media (max-width: 768px) {
+    .bodyImage {
+        height: 70px;
+    }
+}
